@@ -2,7 +2,6 @@ services:
   - type: web
     runtime: docker
     name: pganalyze-collector
-    dockerCommand: collector --statefile=/app/state.out --no-log-timestamps
     plan: starter
     region: oregon
     envVars:
